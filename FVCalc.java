@@ -7,10 +7,10 @@ public class FVCalc {
 		int n = Integer.parseInt(args[2]);
 		double futureValue = currentValue * (Math.pow(1 + rate / 100 , n ));
 
-		System.out.println("After " + n + " years, " + currentValue + " saved at " +
-		 rate + "%" + " will yield " + "$" + (int)futureValue);	
+		 System.out.println("After " + n + " years, $" + currentValue +
+            " saved at " + rate + "% will yield $" + (int)futureValue);
 
-		 // After 30 years, 210 saved at 5.0% will yield $21474836
-
+		 
+		// After 25 years, 250000 saved at 6.0% will yield $1072967
 	}
 }
